@@ -1,0 +1,132 @@
+/*
+Theme Name: Fifty Personal Wordpress
+Theme URI: http://imanali.epizy.com/
+Author: Iman Ali
+Author URI: http://imanali.epizy.com/fifty
+Text Domain: fifty
+Version: 1.0.1
+Description: Fifty Personal WordPress Premium Theme.
+Tags: Personal, Portfolio, Creative, Personal-CV
+Licence:
+Licence URI: 
+*/
+
+.menu {
+    margin-top: 40px;
+    text-align: center;
+    background: #2A2A2E;
+    padding: 35px 0;
+    position: relative;
+}
+
+.menu .menu-item-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.menu .menu-item-box .menu-item {
+    line-height: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.menu .menu-item-box .menu-item .menu-item-icon {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.41);
+}
+
+a {
+    color: #6c6d70;
+    text-decoration: none;
+}
+
+
+:after,
+:before {
+    transition: all .3s linear;
+}
+
+.menu .menu-item-box:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 60%;
+}
+
+.menu .menu-item-box:before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: -5px;
+    height: 100%;
+    width: 3px;
+    background: #232427;
+}
+
+.menu .active.menu-item-box:before {
+    background: #ff4e3d;
+    left: 0;
+}
+
+.menu .menu-item-box:hover:before {
+    background: #555555;
+    left: 0;
+}
+
+.menu .active.menu-item-box .menu-item .menu-item-icon {
+    color: #ff4e3d;
+}
+
+.menu .menu-item-box:hover .menu-item .menu-item-icon {
+    color: #fff;
+}
+
+.menu .active.menu-item-box,
+.menu .menu-item-box:hover {
+ background: #202023; 
+}
+
+.menu-item-box:last-of-type {
+    margin: 0;
+}
+
+span.menu-item-name {
+    margin-left: 10px;
+    position: absolute;
+    left: 60%;
+    background: #2c2d32;
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    border-radius: 3px;
+    width: auto;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+
+.menu-item-box:hover span.menu-item-name {
+    left: 100%;
+    opacity: 1;
+}
+
+span.menu-item-name:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -10px;
+    border-width: 5px;
+    border-color: transparent;
+    border-style: solid;
+    border-right-color: #2c2d32;
+}

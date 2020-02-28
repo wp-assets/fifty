@@ -1,0 +1,14 @@
+Initial-v1.0.1
+
+v1.0.2
+Added:Theme function file
+Added:Theme page file
+Added:Theme single file
+Added:Theme header file
+Added:Theme footer file
+Added:Theme custom template file
+Added:Theme Menu function
+
+
+
+Primeum Version Release
